@@ -25,12 +25,12 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-verson: 12
-    - name: GitHub Actions For npm
-      uses: actions/setup-node@v2-beta
+    - name: yarn actions (yaml)
+      uses: sergioramos/yarn-actions@v6
       with:
         cmd: install
     - name: Creating Build
-      run: npm run build
+      run: yarn build
     
 
     # Runs a set of commands using the runners shell
