@@ -26,11 +26,12 @@ jobs:
       with:
         verson: 12
     - name: GitHub Actions For Yarn
-      uses: Borales/actions-yarn@v2-beta
+      uses: Borales/actions-yarn@v2.1.0
       with:
         cmd: install
-    - name: Creating Buil
-      run: npm run build    
+    - name: Creating Build
+      run: npm run build
+    
 
     # Runs a set of commands using the runners shell
     - name: Installing Surge
