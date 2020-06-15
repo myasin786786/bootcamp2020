@@ -22,7 +22,7 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: Setup Node.js Environmnet
-      uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2.1.0
       with:
         node-verson: 12
     - name: Git Hub Actions For Yarn
